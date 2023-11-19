@@ -18,7 +18,6 @@ import Bindings.Libgit2.Types
 #num GIT_CERT_X509
 #num GIT_CERT_HOSTKEY_LIBSSH2
 #num GIT_CERT_STRARRAY
-#synonym_t git_cert_t , <enum git_cert_t>
 {- struct git_cert {
     git_cert_t cert_type;
 }; -}

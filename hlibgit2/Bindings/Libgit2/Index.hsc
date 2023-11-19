@@ -45,7 +45,6 @@ import Bindings.Libgit2.Strarray
 #field flags_extended , CUInt
 #field path , CString
 #stoptype
-#synonym_t git_index_entry , <struct git_index_entry>
 {- typedef enum {
             GIT_INDEX_ENTRY_EXTENDED = 0x4000, GIT_INDEX_ENTRY_VALID = 0x8000
         } git_index_entry_flag_t; -}

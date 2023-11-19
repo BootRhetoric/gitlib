@@ -11,10 +11,8 @@ import Bindings.Libgit2.Strarray
 import Bindings.Libgit2.Diff
 {- typedef struct git_pathspec git_pathspec; -}
 #opaque_t struct git_pathspec
-#synonym_t git_pathspec , <struct git_pathspec>
 {- typedef struct git_pathspec_match_list git_pathspec_match_list; -}
 #opaque_t struct git_pathspec_match_list
-#synonym_t git_pathspec_match_list , <struct git_pathspec_match_list>
 {- typedef enum {
             GIT_PATHSPEC_DEFAULT = 0,
             GIT_PATHSPEC_IGNORE_CASE = 1u << 0,

@@ -14,5 +14,4 @@ import Bindings.Libgit2.Oid
 #field ids , Ptr <struct git_oid>
 #field count , CSize
 #stoptype
-#synonym_t git_oidarray , <struct git_oidarray>
 #ccall git_oidarray_dispose , Ptr <struct git_oidarray> -> IO ()

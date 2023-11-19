@@ -3,6 +3,7 @@
 #include "../../libgit2/build/include/git2/attr.h"
 module Bindings.Libgit2.Attr where
 import Foreign.Ptr
+import Bindings.Libgit2.Oid
 #strict_import
 
 import Bindings.Libgit2.Common

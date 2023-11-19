@@ -19,7 +19,6 @@ import Bindings.Libgit2.Experimental
 #starttype struct git_oid
 #array_field id , CUChar
 #stoptype
-#synonym_t git_oid , <struct git_oid>
 #ccall git_oid_fromstr , Ptr <struct git_oid> -> CString -> IO CInt
 #ccall git_oid_fromstrp , Ptr <struct git_oid> -> CString -> IO CInt
 #ccall git_oid_fromstrn , Ptr <struct git_oid> -> CString -> CSize -> IO CInt
@@ -38,7 +37,6 @@ import Bindings.Libgit2.Experimental
 #ccall git_oid_is_zero , Ptr <struct git_oid> -> IO CInt
 {- typedef struct git_oid_shorten git_oid_shorten; -}
 #opaque_t struct git_oid_shorten
-#synonym_t git_oid_shorten , <struct git_oid_shorten>
 #ccall git_oid_shorten_new , CSize -> IO (Ptr <struct git_oid_shorten>)
 #ccall git_oid_shorten_add , Ptr <struct git_oid_shorten> -> CString -> IO CInt
 #ccall git_oid_shorten_free , Ptr <struct git_oid_shorten> -> IO ()

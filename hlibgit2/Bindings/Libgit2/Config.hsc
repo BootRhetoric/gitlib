@@ -43,12 +43,10 @@ import Bindings.Libgit2.Buffer
 #field level , <git_config_level_t>
 #field free , FunPtr (Ptr <struct git_config_entry> -> IO ())
 #stoptype
-#synonym_t git_config_entry , <struct git_config_entry>
 #ccall git_config_entry_free , Ptr <struct git_config_entry> -> IO ()
 #callback git_config_foreach_cb , Ptr <struct git_config_entry> -> Ptr () -> IO CInt
 {- typedef struct git_config_iterator git_config_iterator; -}
 #opaque_t struct git_config_iterator
-#synonym_t git_config_iterator , <struct git_config_iterator>
 {- typedef enum {
             GIT_CONFIGMAP_FALSE = 0,
             GIT_CONFIGMAP_TRUE = 1,

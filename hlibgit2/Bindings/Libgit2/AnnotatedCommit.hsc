@@ -3,6 +3,7 @@
 #include "../../libgit2/build/include/git2/annotated_commit.h"
 module Bindings.Libgit2.AnnotatedCommit where
 import Foreign.Ptr
+import Bindings.Libgit2.Oid
 #strict_import
 
 import Bindings.Libgit2.Common

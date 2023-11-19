@@ -13,5 +13,4 @@ import Bindings.Libgit2.Common
 #field strings , Ptr CString
 #field count , CSize
 #stoptype
-#synonym_t git_strarray , <struct git_strarray>
 #ccall git_strarray_dispose , Ptr <struct git_strarray> -> IO ()

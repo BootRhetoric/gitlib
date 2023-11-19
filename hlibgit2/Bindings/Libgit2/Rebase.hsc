@@ -12,6 +12,7 @@ import Bindings.Libgit2.AnnotatedCommit
 import Bindings.Libgit2.Merge
 import Bindings.Libgit2.Checkout
 import Bindings.Libgit2.Commit
+import Bindings.Libgit2.Buffer
 {- typedef struct {
             unsigned int version;
             int quiet;

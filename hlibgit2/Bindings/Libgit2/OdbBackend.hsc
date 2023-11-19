@@ -8,6 +8,7 @@ import Foreign.Ptr
 import Bindings.Libgit2.Common
 import Bindings.Libgit2.Types
 import Bindings.Libgit2.Indexer
+import Bindings.Libgit2.Oid
 {- typedef struct {
             unsigned int version; git_oid_t oid_type;
         } git_odb_backend_pack_options; -}
