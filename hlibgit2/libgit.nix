@@ -55,4 +55,4 @@ stdenv.mkDerivation rec {
     platforms = platforms.all;
     maintainers = with maintainers; [ SuperSandro2000 ];
   };
-}) {inherit (pkgs.darwin.apple_sdk.frameworks) Security;}
+}) {inherit (pkgs.darwin.apple_sdk.frameworks) Security; staticBuild=true;}
