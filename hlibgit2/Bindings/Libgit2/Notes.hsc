@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/include/git2/notes.h"
+#include "../../libgit2/build/include/git2/notes.h"
 module Bindings.Libgit2.Notes where
 import Foreign.Ptr
 #strict_import

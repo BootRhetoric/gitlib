@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/include/git2/types.h"
+#include "../../libgit2/build/include/git2/types.h"
 module Bindings.Libgit2.Types where
 import Foreign.Ptr
 #strict_import

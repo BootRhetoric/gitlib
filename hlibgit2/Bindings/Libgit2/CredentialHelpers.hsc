@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/include/git2/credential_helpers.h"
+#include "../../libgit2/build/include/git2/credential_helpers.h"
 module Bindings.Libgit2.CredentialHelpers where
 import Foreign.Ptr
 #strict_import

@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/include/git2/attr.h"
+#include "../../libgit2/build/include/git2/attr.h"
 module Bindings.Libgit2.Attr where
 import Foreign.Ptr
 #strict_import
