@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/build/include/git2/transaction.h"
+#include <git2/transaction.h>
 module Bindings.Libgit2.Transaction where
 import Foreign.Ptr
 import Bindings.Libgit2.Oid

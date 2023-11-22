@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/build/include/git2/odb.h"
+#include <git2/odb.h>
 module Bindings.Libgit2.Odb where
 import Foreign.Ptr
 #strict_import

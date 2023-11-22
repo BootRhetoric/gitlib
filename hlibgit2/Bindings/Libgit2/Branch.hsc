@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 #include <bindings.dsl.h>
-#include "../../libgit2/build/include/git2/branch.h"
+#include <git2/branch.h>
 module Bindings.Libgit2.Branch where
 import Foreign.Ptr
 import Bindings.Libgit2.Buffer
