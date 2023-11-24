@@ -123,9 +123,8 @@ Library
 
   include-dirs:
     libgit2/build/include
-    libgit2/build/include/git2
   extra-lib-dirs:
-    libgit2/build/lib
+    ${pkgroot}/libgit2/build/lib
 
   cc-options: -DGIT_THREADS -D_FILE_OFFSET_BITS=64 -DGIT_SSL -Wno-format -Wno-format-security -Wno-incompatible-pointer-types
   if os(windows)
